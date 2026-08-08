@@ -1,0 +1,34 @@
+{
+    "name": "Epic Tech Dark Mode",
+    "dataColors": ["#FF5252", "#00F2FE", "#E2E8F0", "#30363D", "#4FACFE", "#FF3366"],
+    "background": "#0D1117",
+    "foreground": "#161B22",
+    "tableAccent": "#FF5252",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#161B22" } },
+                    "transparency": 0
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#30363D" } },
+                    "radius": 8
+                }],
+                "dropShadow": [{
+                    "show": false
+                }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": "#0D1117" } },
+                    "transparency": 0
+                }]
+            }
+        }
+    }
+}
